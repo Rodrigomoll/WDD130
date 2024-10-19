@@ -68,12 +68,21 @@ main {
 }
 
 .history-section, .adventure-section {
-    background-color: #fff;
+    background-color: #AEBD93;
     padding: 50px;
     margin: 20px 0;
     text-align: center;
     border: 2px solid #AEBD93; /* Verde claro */
     color: #4C2E05; /* Marrón oscuro */
+}
+
+.history-section img, .adventure-section img{
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%; 
+    width: 50%; 
+    height: auto;
+    border-radius: 10px;
 }
 
 /* Footer Styles */
