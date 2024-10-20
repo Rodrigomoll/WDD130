@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - White Water Rafting</title>
+    <link rel="stylesheet" href="./styles/contact.css">
+</head>
+<body>
+    <header>
+        <h1>White Water Rafting</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="about.html">Sobre Nosotros</a>
+        <a href="trips.html">Excursiones</a>
+        <a href="contact.html">Contacto</a>
+    </nav>
+
+    <main>
+        <h2>Contacta con Nosotros</h2>
+
+        <div class="contact-info-container">
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <p><strong>Dirección:</strong> Av. de los Rápidos 123, 28001 Madrid</p>
+                <p><strong>Teléfono:</strong> +34 912 345 678</p>
+                <p><strong>Email:</strong> info@whitewater.com</p>
+                <p><strong>Link:</strong> https://excalidraw.com/#json=L7FgrePZlnbPzTRmei2je,nmNplR8ZxiegSLH15A5f4w </p>
+                
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-3.7037902!3d40.4167754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI1JzAwLjQiTiAzwrA0MicxMy42Ilc!5e0!3m2!1ses!2ses!4v1635959876543!5m2!1ses!2ses"></iframe>
+            </div>
+        </div>
+
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Motivo del contacto</label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="general" name="purpose" value="general" required>
+                        <label for="general">Consulta General</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Pregunta sobre Reservas</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Sugerencia para la Web</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Suscríbeme al boletín mensual</label>
+            </div>
+
+            <button type="submit" class="submit-btn">Enviar Mensaje</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 White Water Rafting. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
