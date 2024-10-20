@@ -1,33 +1,17 @@
-main{
-    max-width: 840px;
-}
+    .foto{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
 
-aside{
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
+    }
 
-aside img{
-    width: 200px;
-    height: auto;
-}
+    img{
+        width: 150px;
+        height: auto;
+    }
 
-main img{
-    width: 150px;
-    height: auto;
-}
-
-p{
-    padding: 0;
-}
-
-footer{
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}
+    .centering{
+        display: grid;
+        grid-template-columns: repeat(autofill, minmax(150px, 1fr));
+        gap: 10px;
+    }
