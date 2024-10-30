@@ -11,7 +11,8 @@
   }
   
   header {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
     justify-content: space-around;
     padding: 20px;
@@ -19,9 +20,13 @@
   }
   
   header .logo {
-    width: 50px;
+    width: 100px;
   }
   
+  header nav{
+    display: flex;
+    justify-content: space-around;
+  }
   header nav a {
     color: #fff;
     text-decoration: none;
@@ -175,9 +180,8 @@
 
   footer {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 20px;
     background-color: #333;
     color: #fff;
@@ -201,11 +205,16 @@
   footer nav a:hover {
     color: #ddd;
   }
+
+  footer .social{
+    display: flex;
+    justify-content: flex-end;
+  }
   
-  footer .social a {
+  footer .social img {
     color: #fff;
     margin: 0 10px;
-    font-size: 1.5rem;
+    width: 30px;
   }
   
   footer .social a:hover {
